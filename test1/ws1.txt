@@ -1,0 +1,4 @@
+1. The purpose of the log message for git commit is to provide an explanation of whatever changes were made and why.
+2. A good commit message explains why the change was made and it does so concisely. 
+3. Each commit should represent a single logical change so it is important to commit often but meaningfully. It is also important to commit before switching context. 
+4. False: avoid committing binaries, media files, and log files to git.
