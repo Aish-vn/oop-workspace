@@ -3,7 +3,7 @@ using namespace std;
 
 int array_sum(int array[], int n) {
 
-    if (n > 1) return 0;
+    if (n < 1) return 0;
 
     int sum = 0; 
 
