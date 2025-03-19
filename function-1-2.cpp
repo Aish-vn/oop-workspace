@@ -9,7 +9,7 @@ double array_mean(int array[], int n){
 
     for (int i = 0; i < n; i++) {
         sum += array[i];
-        avg += sum/2;
+        avg += sum/n;
     }
     return avg;
 }
