@@ -8,11 +8,8 @@ private:
     std::string weapon;
 
 public:
-    Warrior(std::string name, int health, int damage, std::string weapon);
+    Warrior(const std::string& name, int health, int damage, const std::string& weapon);
     void swingWeapon(Player* opponent);
-
-    std::string getWeapon() const;
-    void setWeapon(std::string weapon);
 };
 
 #endif

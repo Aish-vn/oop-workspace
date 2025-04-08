@@ -8,11 +8,8 @@ private:
     int mana;
 
 public:
-    Wizard(std::string name, int health, int damage, int mana);
+    Wizard(const std::string& name, int health, int damage, int mana);
     void castSpell(Player* opponent);
-
-    int getMana() const;
-    void setMana(int mana);
 };
 
-#endif
+#endif 
