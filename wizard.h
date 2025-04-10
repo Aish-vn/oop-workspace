@@ -12,4 +12,4 @@ public:
     void castSpell(Player* opponent);
 };
 
-#endif 
+#endif // WIZARD_H
